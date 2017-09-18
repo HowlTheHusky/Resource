@@ -345,6 +345,9 @@
 #define	DST_RESTPOINT_RATE			93	// 15차 휴식의 기운 증가율(%)
 #define MAX_ADJPARAMARY             94
 
+// DST PENYA
+#define DST_PENYA				95
+
 // ADJPARAMARRAY에는 추가되지 않고, 현재값의 설정과 반환( GetPointParam, SetPointParam )에 사용하기 위한 식별자
 #define	DST_GOLD				10000
 #define	DST_PXP					10001

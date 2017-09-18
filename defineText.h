@@ -1939,7 +1939,7 @@
 #define TID_GAME_VENDOR_MAX_ONE_GOLD		3141
 #define TID_GAME_VENDOR_MAX_ALL_GOLD		3142
 #define TID_GAME_NOTREADY_USESHOP		3143 //°¡¹ß ¹× ±âÅ¸ ¸Ó¸®¿¡ ¾²´Â ¾ÆÀÌÅÛ Âø¿ë ½Ã Çì¾î¼¥/¼ºÇü¼ö¼ú ÁøÀÔ ºÒ°¡
-#define TID_GAME_DONOTUSE_SHOP			3144 //Çì¾î˜Þ, ¼ºÇü¼ö¼ú ÀÌ¿ë ½Ã ¸Ó¸®¿¡ ¾²´Â ¾ÆÀÌÅÛ »ç¿ë ºÒ°¡
+#define TID_GAME_DONOTUSE_SHOP			3144 //Çì¾î˜? ¼ºÇü¼ö¼ú ÀÌ¿ë ½Ã ¸Ó¸®¿¡ ¾²´Â ¾ÆÀÌÅÛ »ç¿ë ºÒ°¡
 #define TID_GAME_COMPLETE_ANGEL			3145	
 #define TID_GAME_NOT_INVEN_ANGEL		3146	
 #define TID_GAME_NOT_QUEST_ANGEL		3147	
@@ -3462,5 +3462,12 @@
 #define	TID_GAME_EVENT_WORLDCUP10_FOR_COND03	4426
 #define	TID_GAME_EVENT_WORLDCUP10_FOR_COND04	4427
 
+// DST PENYA
+#define TID_TOOLTIP_PENYA			4428
+
+// EXTENDED CURRENCY
+#define TID_GAME_CANNT_BY_PERIN		4429
+#define TID_GAME_CANNT_BY_BLUE		4430
+#define TID_GAME_CANNT_BY_BLACK		4431
 
 #endif
