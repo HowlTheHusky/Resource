@@ -1,0 +1,5 @@
+---------------------------------------------
+01/09/2017 09:43:33
+..\Common\File.cpp line 40
+bool __thiscall CFile::Open(const class QString &,enum QIODevice::OpenModeFlag,bool)
+Can't open file 'WndStyle.h'

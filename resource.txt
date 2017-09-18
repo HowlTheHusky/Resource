@@ -1,0 +1,1150 @@
+version "V0.01"
+encryptionKey 0x57
+
+
+resource 1 "..\ResClient\data.res"
+{
+//prj Dateien
+file "Masquerade.prj"
+
+//Header Dateien
+file "ContinentDef.h"
+file "define.h"
+file "defineAttribute.h"
+file "defineEvent.h"
+file "defineHonor.h"
+file "defineItem.h"
+file "defineItemkind.h"
+file "defineJob.h"
+file "defineMapComboBoxData.h"
+file "defineNeuz.h"
+file "defineObj.h"
+file "definequest.h"
+file "defineSkill.h"
+file "defineSound.h"
+file "defineText.h"
+file "defineWorld.h"
+file "lang.h"
+file "ResData.h"
+file "WndStyle.h"
+
+//Inc Dateien
+file "accessory.inc"
+file "collecting.inc"
+file "Constant.inc"
+file "expTable.inc"
+file "filter.inc"
+file "filter_ENG.inc"
+file "filter_FRE.inc"
+file "filter_GER.inc"
+file "filter_JAP.inc"
+file "filter_KOR.inc"
+file "filter_PHP.inc"
+file "filter_SPA.inc"
+file "filter_THA.inc"
+file "filter_TWN.inc"
+file "filter_USA.inc"
+file "InvalidName.inc"
+file "InvalidName_ENG.inc"
+file "InvalidName_FRE.inc"
+file "InvalidName_GER.inc"
+file "InvalidName_ID.inc"
+file "InvalidName_JAP.inc"
+file "InvalidName_KOR.inc"
+file "InvalidName_PHP.inc"
+file "InvalidName_SPA.inc"
+file "InvalidName_THA.inc"
+file "InvalidName_TWN.inc"
+file "InvalidName_USA.inc"
+file "jobItem.inc"
+file "Letter_ENG.inc"
+file "Letter_FRE.inc"
+file "Letter_GER.inc"
+file "Letter_ID.inc"
+file "Letter_SPA.inc"
+file "Letter_USA.inc"
+file "Letter2_FRE.inc"
+file "Letter2_GER.inc"
+file "mdlDyna.inc"
+file "mdlObj.inc"
+file "pet.inc"
+file "PKSetting.inc"
+file "propEnchant.inc"
+file "propEvent.inc"
+file "propGuildQuest.inc"
+file "propItemEtc.inc"
+file "propMapComboBoxData.inc"
+file "propMoverEx.inc"
+file "Terrain.inc"
+file "wordToolTip.inc"
+file "world.inc"
+
+//Csv Dateien
+file "propObj.csv"
+file "propSkillAdd.csv"
+
+//txt definitions Dateien
+file "credit.txt"
+file "Exchange_Script.txt"
+file "honorList.txt"
+file "propCtrl.txt"
+file "propKarma.txt"
+file "propLang.txt"
+file "propMotion.txt"
+file "propMover.txt"
+file "propSkill.txt"
+file "propTroupeSkill.txt"
+file "textEmotion.txt"
+file "Ultimate_GemAbility.txt"
+
+//txt Beschreibungs Dateien
+file "honorList.txt.txt"
+file "PatrolDestination.txt.txt"
+file "propCtrl.txt.txt"
+file "propItemEtc.txt.txt"
+file "propKarma.txt.txt"
+file "propMapComboBoxData.txt.txt"
+file "propMotion.txt.txt"
+file "propMover.txt.txt"
+file "propSkill.txt.txt"
+file "propTroupeSkill.txt.txt"
+file "QuestDestination.txt.txt"
+file "textEmotion.txt.txt"
+file "world.txt.txt"
+}
+
+resource 1 "..\ResClient\dataSub1.res"
+{
+	//Header Dateien
+	file "definelordskill.h"
+	
+	//Inc Dateien
+	file "character-etc.inc"
+	file "character-school.inc"
+	file "character.inc"
+	file "etc.inc"
+	file "propJob.inc"
+	file "propQuest-DungeonandPK.inc"
+	file "propQuest-RequestBox.inc"
+	file "propQuest-Scenario.inc"
+	file "propQuest.inc"
+	file "resdata.inc"
+	file "textClient.inc"
+	file "lordevent.inc"
+	file "couple.inc"
+	file "ticket.inc"
+	file "layer.inc"
+	
+	//txt Definitions Dateien
+	file "lordskill.txt"	
+	
+	//txt Beschreibungs Dateien
+	file "character-etc.txt.txt"
+	file "character-school.txt.txt"
+	file "Character.txt.txt"
+	file "etc.txt.txt"
+	file "PropQuest-DungeonandPK.txt.txt"
+	file "PropQuest-RequestBox.txt.txt"
+	file "PropQuest-Scenario.txt.txt"
+	file "PropQuest.txt.txt"
+	file "resData.txt.txt"
+	file "textClient.txt.txt"
+	file "lordskill.txt.txt"
+}
+
+resource 1 "..\ResClient\dataSub2.res"
+{
+	file 	"Spec_Item.txt"
+	file	"propItem.txt.txt"
+	file	"except.txt"
+	file  "defineMapComboBoxData.h"
+	file  "propMapComboBoxData.inc"
+	file  "propMapComboBoxData.txt.txt"
+}
+
+// char 얼굴
+resource 0 "..\ResClient\Char\Char.res"
+{ wildcard "Char\*.*" }
+
+
+resource 1 "..\ResClient\client\client.res"
+{
+
+	file "client\faq.txt.txt"
+//	file "client\GameGuard.txt.txt"
+	file "client\Guide.txt.txt"
+	file "client\help.txt.txt"
+	file "client\InstantHelp.txt.txt"
+	file "client\PatchClient.txt.txt"
+	file "client\tip.txt.txt"
+	file "client\treeHelp.txt.txt"
+	file "client\MiniGameDiceDesc.inc"
+	file "client\MiniGameFindWordDesc.inc"
+	file "client\MiniGamePuzzleDesc.inc"
+	file "client\SmeltChangeUltimateWeapon.inc"
+	file "client\SmeltChangeUniqueWeapon.inc"
+	file "client\SmeltExtraction.inc"
+	file "client\SmeltJewel.inc"
+	file "client\SmeltMixJewel.inc"
+	file "client\PetMiracle.inc"
+	file "client\HeroSkillUp.inc"
+	file "client\summonAngelQuest.inc"
+	file "client\ChangeUltimateWeaponInfo.inc"
+	file "client\ChangeUniqueWeaponInfo.inc"
+	file "client\SmeltRemovePiercing.inc"
+	file "client\RemoveAttribute.inc"
+	file "client\GuildCombatRedChipGuild.inc"
+	file "client\ReqLvDown.inc"
+	file "client\ItemAwakening.inc"
+	file "client\ItemBlessingCancel.inc"
+	file "client\SecretRoomDesc.inc"
+	file "client\SecretRoomCheckTaxRate.inc"
+	file "client\SecretRoomChangeTaxRate.inc"
+	file "client\SecretRoomBoard.inc"
+	file "client\lordInfo.inc"
+	file "client\tutorial.txt.txt"
+	file "client\tutorial.inc"
+	file "client\PetTransEggs.inc"
+	file "client\SmeltRemoveJewel.inc"
+	file "client\lordrpInfo.inc"
+	file "client\lordcandidate.inc"
+	file "client\PetAwakCancel.inc"
+	file "client\CoupleSkillInfo.inc"
+	file "client\RRMinigameTyping.inc"
+	file "client\RRMinigameStopwatch.inc"
+	file "client\RRMinigameLadder.inc"
+	file "client\RRMinigameKawiBawiBo.inc"
+	file "client\RRMinigameDice.inc"
+	file "client\RRMinigameCard.inc"
+	file "client\RRMinigameArithmetic.inc"
+	file "client\RainbowRaceKawiBawiBo.inc"
+	file "client\RainbowRaceLadder.inc"
+	file "client\RainbowRaceStopwatch.inc"
+	file "client\RainbowRaceTyping.inc"
+	file "client\RainbowRaceDice.inc"
+	file "client\RainbowRaceCard.inc"
+	file "client\RainbowRaceArithmetic.inc"
+	file "client\RainbowRaceRule.inc"
+	file "client\RainbowRacePrize.inc"
+	file "client\RainbowRaceOffer.inc"
+	file "client\RainbowRaceInfo.inc"
+	file "client\ChangeAttribute.inc"
+}
+
+resource 0 "..\ResClient\Icon\icon.res"
+{
+	wildcard "Icon\*.*"
+}
+
+resource 0 "..\ResClient\Item\item.res"
+{
+	wildcard "Item\*.*"
+}
+
+
+
+
+// sfx ////////////////////////////////////////////////////////////////////////
+resource 0 "..\ResClient\Sfx\sfx.res"
+{
+	wildcard "sfx\*.*" 
+}
+// sfx texture 
+resource 0 "..\ResClient\Sfx\texture\sfxtex.res"
+{
+	wildcard "sfx\texture\*.*" 
+}
+
+// weather 기상 효과 /////////////////////////////////
+resource 0 "..\ResClient\Weather\Weather.res"
+{ 
+	wildcard "Weather\*.dds" 
+	wildcard "Weather\*.tga" 
+	wildcard "Weather\*.bmp" 
+
+	//file "Weather\snow.tga" 
+	//file "Weather\flare_3.tga"
+
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// World texture 
+resource 0 "..\ResClient\World\texture\wtex.res"
+{
+	wildcard "World\texture\*.*" 
+}
+resource 0 "..\ResClient\World\textureMid\wtexm.res"
+{
+	wildcard "World\textureMid\*.*" 
+}
+resource 0 "..\ResClient\World\textureLow\wtexl.res"
+{
+	wildcard "World\textureLow\*.*" 
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// Model texture end
+
+////////// 00-00
+resource 0 "..\ResClient\World\WdEvent01\WdEvent0100-00.res" 
+{ count "world\WdEvent01\WdEvent01(2,00,04)-(2,00,04).lnd" }
+resource 0 "..\ResClient\World\WdEvent01\WdEvent0100-05.res" 
+{ count "world\WdEvent01\WdEvent01(2,00,04)-(2,05,09).lnd" }
+resource 0 "..\ResClient\World\WdEvent01\WdEvent0100-10.res" 
+{ count "world\WdEvent01\WdEvent01(2,00,04)-(2,10,14).lnd" }
+resource 0 "..\ResClient\World\WdEvent01\WdEvent0100-15.res" 
+{ count "world\WdEvent01\WdEvent01(2,00,04)-(2,15,19).lnd" }
+resource 0 "..\ResClient\World\WdEvent01\WdEvent0100-20.res" 
+{ count "world\WdEvent01\WdEvent01(2,00,04)-(2,20,24).lnd" }
+resource 0 "..\ResClient\World\WdEvent01\WdEvent0100-25.res" 
+{ count "world\WdEvent01\WdEvent01(2,00,04)-(2,25,29).lnd" }
+
+//////////////////////////////////////////////////////
+// 이벤트 미니맵 
+//////////////////////////////////////////////////////
+resource 0 "..\ResClient\World\WdEvent01\WdEvent01_00-00.res" 
+{ count "world\WdEvent01\WdEvent01(2,00,04)-(2,00,04).dds" }
+resource 0 "..\ResClient\World\WdEvent01\WdEvent01_00-05.res" 
+{ count "world\WdEvent01\WdEvent01(2,00,04)-(2,05,09).dds" }
+resource 0 "..\ResClient\World\WdEvent01\WdEvent01_00-10.res" 
+{ count "world\WdEvent01\WdEvent01(2,00,04)-(2,10,14).dds" }
+resource 0 "..\ResClient\World\WdEvent01\WdEvent01_00-15.res" 
+{ count "world\WdEvent01\WdEvent01(2,00,04)-(2,15,19).dds" }
+resource 0 "..\ResClient\World\WdEvent01\WdEvent01_00-20.res" 
+{ count "world\WdEvent01\WdEvent01(2,00,04)-(2,20,24).dds" }
+resource 0 "..\ResClient\World\WdEvent01\WdEvent01_00-25.res" 
+{ count "world\WdEvent01\WdEvent01(2,00,04)-(2,25,29).dds" }
+
+
+//////////////////////////////////////////////////////
+// 프리프던전맵
+//////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Model texture end
+
+
+
+//////////////////////////////////////////////////////
+// 데카네스 던전맵
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuDaDk\DuDaDk.res"
+{
+	file "world\DuDaDk\DuDaDk.wld"
+	file "world\DuDaDk\DuDaDk.rgn"
+	file "world\DuDaDk\DuDaDk.txt.txt"
+}
+////////////////////////////////////////////////////////////////////////////////
+// Model texture end
+
+////////// 00-00
+resource 0 "..\ResClient\World\DuDaDk\DuDaDk00-00.res" 
+{ count "world\DuDaDk\DuDaDk(2,00,04)-(2,00,04).lnd" }
+resource 0 "..\ResClient\World\DuDaDk\DuDaDk00-05.res" 
+{ count "world\DuDaDk\DuDaDk(2,00,04)-(2,05,09).lnd" }
+resource 0 "..\ResClient\World\DuDaDk\DuDaDk00-10.res" 
+{ count "world\DuDaDk\DuDaDk(2,00,04)-(2,10,14).lnd" }
+resource 0 "..\ResClient\World\DuDaDk\DuDaDk00-15.res" 
+{ count "world\DuDaDk\DuDaDk(2,00,04)-(2,15,19).lnd" }
+resource 0 "..\ResClient\World\DuDaDk\DuDaDk00-20.res" 
+{ count "world\DuDaDk\DuDaDk(2,00,04)-(2,20,24).lnd" }
+resource 0 "..\ResClient\World\DuDaDk\DuDaDk00-25.res" 
+{ count "world\DuDaDk\DuDaDk(2,00,04)-(2,25,29).lnd" }
+
+//////////////////////////////////////////////////////
+// 데카네스 던전미니맵
+//////////////////////////////////////////////////////
+resource 0 "..\ResClient\World\DuDaDk\DuDaDk_00-00.res" 
+{ count "world\DuDaDk\DuDaDk(2,00,04)-(2,00,04).dds" }
+resource 0 "..\ResClient\World\DuDaDk\DuDaDk_00-05.res" 
+{ count "world\DuDaDk\DuDaDk(2,00,04)-(2,05,09).dds" }
+resource 0 "..\ResClient\World\DuDaDk\DuDaDk_00-10.res" 
+{ count "world\DuDaDk\DuDaDk(2,00,04)-(2,10,14).dds" }
+resource 0 "..\ResClient\World\DuDaDk\DuDaDk_00-15.res" 
+{ count "world\DuDaDk\DuDaDk(2,00,04)-(2,15,19).dds" }
+resource 0 "..\ResClient\World\DuDaDk\DuDaDk_00-20.res" 
+{ count "world\DuDaDk\DuDaDk(2,00,04)-(2,20,24).dds" }
+resource 0 "..\ResClient\World\DuDaDk\DuDaDk_00-25.res" 
+{ count "world\DuDaDk\DuDaDk(2,00,04)-(2,25,29).dds" }
+
+//////////////////////////////////////////////////////
+// 케바라스 던전맵
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdKebaras\WdKebaras.res"
+{
+	file "world\WdKebaras\WdKebaras.wld"
+	file "world\WdKebaras\WdKebaras.rgn"
+	file "world\WdKebaras\WdKebaras.txt.txt"
+}
+////////////////////////////////////////////////////////////////////////////////
+// Model texture end
+
+////////// 00-00
+resource 0 "..\ResClient\World\WdKebaras\WdKebaras00-00.res" 
+{ count "world\WdKebaras\WdKebaras(2,00,04)-(2,00,04).lnd" }
+resource 0 "..\ResClient\World\WdKebaras\WdKebaras00-05.res" 
+{ count "world\WdKebaras\WdKebaras(2,00,04)-(2,05,09).lnd" }
+resource 0 "..\ResClient\World\WdKebaras\WdKebaras00-10.res" 
+{ count "world\WdKebaras\WdKebaras(2,00,04)-(2,10,14).lnd" }
+resource 0 "..\ResClient\World\WdKebaras\WdKebaras00-15.res" 
+{ count "world\WdKebaras\WdKebaras(2,00,04)-(2,15,19).lnd" }
+resource 0 "..\ResClient\World\WdKebaras\WdKebaras00-20.res" 
+{ count "world\WdKebaras\WdKebaras(2,00,04)-(2,20,24).lnd" }
+resource 0 "..\ResClient\World\WdKebaras\WdKebaras00-25.res" 
+{ count "world\WdKebaras\WdKebaras(2,00,04)-(2,25,29).lnd" }
+
+//////////////////////////////////////////////////////
+// 케바라스 던전미니맵
+//////////////////////////////////////////////////////
+resource 0 "..\ResClient\World\WdKebaras\WdKebaras_00-00.res" 
+{ count "world\WdKebaras\WdKebaras(2,00,04)-(2,00,04).dds" }
+resource 0 "..\ResClient\World\WdKebaras\WdKebaras_00-05.res" 
+{ count "world\WdKebaras\WdKebaras(2,00,04)-(2,05,09).dds" }
+resource 0 "..\ResClient\World\WdKebaras\WdKebaras_00-10.res" 
+{ count "world\WdKebaras\WdKebaras(2,00,04)-(2,10,14).dds" }
+resource 0 "..\ResClient\World\WdKebaras\WdKebaras_00-15.res" 
+{ count "world\WdKebaras\WdKebaras(2,00,04)-(2,15,19).dds" }
+resource 0 "..\ResClient\World\WdKebaras\WdKebaras_00-20.res" 
+{ count "world\WdKebaras\WdKebaras(2,00,04)-(2,20,24).dds" }
+resource 0 "..\ResClient\World\WdKebaras\WdKebaras_00-25.res" 
+{ count "world\WdKebaras\WdKebaras(2,00,04)-(2,25,29).dds" }
+
+
+//////////////////////////////////////////////////////
+// 곰 던전맵
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuBear\DuBear.res"
+{
+	file "world\DuBear\DuBear.wld"
+	file "world\DuBear\DuBear.rgn"
+	file "world\DuBear\DuBear.txt.txt"
+}
+resource 0 "..\ResClient\World\DuBear\DuBear00-00.res" 
+{ 	
+	count "world\DuBear\DuBear(2,00,04)-(2,00,04).lnd"
+}
+
+resource 0 "..\ResClient\World\DuBear\DuBear_00-00.res" 
+{
+	count "world\DuBear\DuBear(2,00,04)-(2,00,04).dds"
+}
+
+//////////////////////////////////////////////////////
+// Krr 던전맵
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuKrr\DuKrr.res"
+{
+	file "world\DuKrr\DuKrr.wld"
+	file "world\DuKrr\DuKrr.rgn"
+	file "world\DuKrr\DuKrr.txt.txt"
+}
+resource 0 "..\ResClient\World\DuKrr\DuKrr00-00.res" 
+{ 	
+	count "world\DuKrr\DuKrr(2,00,04)-(2,00,04).lnd"
+}
+
+resource 0 "..\ResClient\World\DuKrr\DuKrr_00-00.res" 
+{
+	count "world\DuKrr\DuKrr(2,00,04)-(2,00,04).dds"
+}
+
+
+//////////////////////////////////////////////////////
+// Muscle 던전맵
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuMuscle\DuMuscle.res"
+{
+	file "world\DuMuscle\DuMuscle.wld"
+	file "world\DuMuscle\DuMuscle.rgn"
+	file "world\DuMuscle\DuMuscle.txt.txt"
+}
+resource 0 "..\ResClient\World\DuMuscle\DuMuscle00-00.res" 
+{ 	
+	count "world\DuMuscle\DuMuscle(2,00,04)-(2,00,04).lnd"
+}
+
+resource 0 "..\ResClient\World\DuMuscle\DuMuscle_00-00.res" 
+{
+	count "world\DuMuscle\DuMuscle(2,00,04)-(2,00,04).dds"
+}
+
+//////////////////////////////////////////////////////
+// 일대일 길드대전 맵
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdGuildWar1To1\WdGuildWar1To1.res"
+{
+	file "world\WdGuildWar1To1\WdGuildWar1To1.wld"
+	file "world\WdGuildWar1To1\WdGuildWar1To1.rgn"
+	file "world\WdGuildWar1To1\WdGuildWar1To1.txt.txt"
+	file "world\WdGuildWar1To1\WdGuildWar1To100-00.dds"
+	file "world\WdGuildWar1To1\WdGuildWar1To100-00.lnd"
+}
+
+
+//////////////////////////////////////////////////////
+// 길드대전 맵
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdGuildWar\WdGuildWar.res"
+{
+	file "world\WdGuildWar\WdGuildWar.wld"
+	file "world\WdGuildWar\WdGuildWar.rgn"
+	file "world\WdGuildWar\WdGuildWar.txt.txt"
+}
+
+
+////////// 00-00
+resource 0 "..\ResClient\World\WdGuildWar\WdGuildWar00-00.res" 
+{ 	
+	count "world\WdGuildWar\WdGuildWar(2,00,04)-(2,00,04).lnd"
+}
+
+resource 0 "..\ResClient\World\WdGuildWar\WdGuildWar_00-00.res" 
+{
+	count "world\WdGuildWar\WdGuildWar(2,00,04)-(2,00,04).dds"
+	file "world\WdGuildWar\WdGuildWar_Mask.dds"
+}
+
+//////////////////////////////////////////////////////
+// DuSaTemple 던전맵
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuSaTemple\DuSaTemple.res"
+{
+	file "world\DuSaTemple\DuSaTemple.wld"
+	file "world\DuSaTemple\DuSaTemple.rgn"
+	file "world\DuSaTemple\DuSaTemple.txt.txt"
+}
+resource 0 "..\ResClient\World\DuSaTemple\DuSaTemple00-00.res" 
+{ 	
+	count "world\DuSaTemple\DuSaTemple(2,00,03)-(2,00,03).lnd"
+}
+
+resource 0 "..\ResClient\World\DuSaTemple\DuSaTemple_00-00.res" 
+{
+	count "world\DuSaTemple\DuSaTemple(2,00,03)-(2,00,03).dds"
+}
+
+//////////////////////////////////////////////////////
+// DuSaTempleBoss 던전맵
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuSaTempleBoss\DuSaTempleBoss.res"
+{
+	file "world\DuSaTempleBoss\DuSaTempleBoss.wld"
+	file "world\DuSaTempleBoss\DuSaTempleBoss.rgn"
+	file "world\DuSaTempleBoss\DuSaTempleBoss.txt.txt"
+}
+resource 0 "..\ResClient\World\DuSaTempleBoss\DuSaTempleBoss00-00.res" 
+{ 	
+	count "world\DuSaTempleBoss\DuSaTempleBoss(2,00,01)-(2,00,01).lnd"
+}
+
+resource 0 "..\ResClient\World\DuSaTempleBoss\DuSaTempleBoss_00-00.res" 
+{
+	count "world\DuSaTempleBoss\DuSaTempleBoss(2,00,01)-(2,00,01).dds"
+}
+
+//////////////////////////////////////////////////////
+// WdVolcane 볼케인 메인
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdVolcane\WdVolcane.res"
+{
+	file "world\WdVolcane\WdVolcane.wld"
+	file "world\WdVolcane\WdVolcane.rgn"
+	file "world\WdVolcane\WdVolcane.txt.txt"
+}
+resource 0 "..\ResClient\World\WdVolcane\WdVolcane00-00.res" 
+{ 	
+	count "world\WdVolcane\WdVolcane(2,00,04)-(2,00,04).lnd"
+}
+
+resource 0 "..\ResClient\world\WdVolcane\WdVolcane_00-00.res" 
+{
+	count "world\WdVolcane\WdVolcane(2,00,04)-(2,00,04).dds"
+}
+
+//////////////////////////////////////////////////////
+// WdVolcaneRed 볼케인 레드
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdVolcaneRed\WdVolcaneRed.res"
+{
+	file "world\WdVolcaneRed\WdVolcaneRed.wld"
+	file "world\WdVolcaneRed\WdVolcaneRed.rgn"
+	file "world\WdVolcaneRed\WdVolcaneRed.txt.txt"
+}
+resource 0 "..\ResClient\World\WdVolcaneRed\WdVolcaneRed00-00.res" 
+{ 	
+	count "world\WdVolcaneRed\WdVolcaneRed(2,00,04)-(2,00,04).lnd"
+}
+
+resource 0 "..\ResClient\world\WdVolcaneRed\WdVolcaneRed_00-00.res" 
+{
+	count "world\WdVolcaneRed\WdVolcaneRed(2,00,04)-(2,00,04).dds"
+}
+
+//////////////////////////////////////////////////////
+// WdVolcaneYellow 볼케인 옐로우
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdVolcaneYellow\WdVolcaneYellow.res"
+{
+	file "world\WdVolcaneYellow\WdVolcaneYellow.wld"
+	file "world\WdVolcaneYellow\WdVolcaneYellow.rgn"
+	file "world\WdVolcaneYellow\WdVolcaneYellow.txt.txt"
+}
+resource 0 "..\ResClient\World\WdVolcaneYellow\WdVolcaneYellow00-00.res" 
+{ 	
+	count "world\WdVolcaneYellow\WdVolcaneYellow(2,00,04)-(2,00,04).lnd"
+}
+
+resource 0 "..\ResClient\world\WdVolcaneYellow\WdVolcaneYellow_00-00.res" 
+{
+	count "world\WdVolcaneYellow\WdVolcaneYellow(2,00,04)-(2,00,04).dds"
+}
+
+//////////////////////////////////////////////////////
+// 아레나 맵
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdArena\WdArenar.res"
+{
+	file "world\WdArena\WdArena.wld"
+	file "world\WdArena\WdArena.rgn"
+	file "world\WdArena\WdArena.txt.txt"
+	file "world\WdArena\WdArena00-00.dds"
+	file "world\WdArena\WdArena00-01.dds"
+	file "world\WdArena\WdArena01-00.dds"
+	file "world\WdArena\WdArena01-01.dds"
+	file "world\WdArena\WdArena00-00.lnd"
+	file "world\WdArena\WdArena00-01.lnd"
+	file "world\WdArena\WdArena01-00.lnd"
+	file "world\WdArena\WdArena01-01.lnd"
+}
+
+//////////////////////////////////////////////////////
+// 심연의 탑 1층
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdHeaven01\WdHeaven01.res"
+{
+	file "world\WdHeaven01\WdHeaven01.wld"
+	file "world\WdHeaven01\WdHeaven01.rgn"
+	file "world\WdHeaven01\WdHeaven01.txt.txt"
+	file "world\WdHeaven01\WdHeaven0100-00.dds"
+	file "world\WdHeaven01\WdHeaven0100-00.lnd"
+}
+
+//////////////////////////////////////////////////////
+// 심연의 탑 2층
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdHeaven02\WdHeaven02.res"
+{
+	file "world\WdHeaven02\WdHeaven02.wld"
+	file "world\WdHeaven02\WdHeaven02.rgn"
+	file "world\WdHeaven02\WdHeaven02.txt.txt"
+	file "world\WdHeaven02\WdHeaven0200-00.dds"
+	file "world\WdHeaven02\WdHeaven0200-00.lnd"
+}
+
+//////////////////////////////////////////////////////
+// 심연의 탑 3층
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdHeaven03\WdHeaven03.res"
+{
+	file "world\WdHeaven03\WdHeaven03.wld"
+	file "world\WdHeaven03\WdHeaven03.rgn"
+	file "world\WdHeaven03\WdHeaven03.txt.txt"
+	file "world\WdHeaven03\WdHeaven0300-00.dds"
+	file "world\WdHeaven03\WdHeaven0300-00.lnd"
+}
+
+
+//////////////////////////////////////////////////////
+// 심연의 탑 4층
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdHeaven04\WdHeaven04.res"
+{
+	file "world\WdHeaven04\WdHeaven04.wld"
+	file "world\WdHeaven04\WdHeaven04.rgn"
+	file "world\WdHeaven04\WdHeaven04.txt.txt"
+	file "world\WdHeaven04\WdHeaven0400-00.dds"
+	file "world\WdHeaven04\WdHeaven0400-00.lnd"
+}
+
+//////////////////////////////////////////////////////
+// 심연의 탑 5층
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdHeaven05\WdHeaven05.res"
+{
+	file "world\WdHeaven05\WdHeaven05.wld"
+	file "world\WdHeaven05\WdHeaven05.rgn"
+	file "world\WdHeaven05\WdHeaven05.txt.txt"
+	file "world\WdHeaven05\WdHeaven0500-00.dds"
+	file "world\WdHeaven05\WdHeaven0500-00.lnd"
+}
+
+//////////////////////////////////////////////////////
+// 심연의 탑 6층
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdHeaven06\WdHeaven06.res"
+{
+	file "world\WdHeaven06\WdHeaven06.wld"
+	file "world\WdHeaven06\WdHeaven06.rgn"
+	file "world\WdHeaven06\WdHeaven06.txt.txt"
+	file "world\WdHeaven06\WdHeaven0600-00.dds"
+	file "world\WdHeaven06\WdHeaven0600-01.dds"
+	file "world\WdHeaven06\WdHeaven0601-00.dds"
+	file "world\WdHeaven06\WdHeaven0601-01.dds"
+	file "world\WdHeaven06\WdHeaven0600-00.lnd"
+	file "world\WdHeaven06\WdHeaven0600-01.lnd"
+	file "world\WdHeaven06\WdHeaven0601-00.lnd"
+	file "world\WdHeaven06\WdHeaven0601-01.lnd"
+}
+
+//////////////////////////////////////////////////////
+// 심연의 탑 6_1층
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdHeaven06_1\WdHeaven06_1.res"
+{
+	file "world\WdHeaven06_1\WdHeaven06_1.wld"
+	file "world\WdHeaven06_1\WdHeaven06_1.rgn"
+	file "world\WdHeaven06_1\WdHeaven06_1.txt.txt"
+	file "world\WdHeaven06_1\WdHeaven06_100-00.dds"
+	file "world\WdHeaven06_1\WdHeaven06_100-01.dds"
+	file "world\WdHeaven06_1\WdHeaven06_101-00.dds"
+	file "world\WdHeaven06_1\WdHeaven06_101-01.dds"
+	file "world\WdHeaven06_1\WdHeaven06_100-00.lnd"
+	file "world\WdHeaven06_1\WdHeaven06_100-01.lnd"
+	file "world\WdHeaven06_1\WdHeaven06_101-00.lnd"
+	file "world\WdHeaven06_1\WdHeaven06_101-01.lnd"
+}
+
+//////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+// Model texture end
+
+
+//////////////////////////////////////////////////////
+// 미니룸
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdMiniroom\WdMiniroom.res"
+{
+	file "world\WdMiniroom\WdMiniroom.wld"
+	file "world\WdMiniroom\WdMiniroom.rgn"
+	file "world\WdMiniroom\WdMiniroom.txt.txt"
+	file "world\WdMiniroom\WdMiniroom00-00.dds"
+	file "world\WdMiniroom\WdMiniroom00-00.lnd"
+}
+
+//////////////////////////////////////////////////////
+// 아미너스 던전
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuOminous\DuOminous.res"
+{
+	file	 	"world\DuOminous\DuOminous.wld"
+	file		"world\DuOminous\DuOminous.rgn"
+	file 		"world\DuOminous\DuOminous.txt.txt"
+	wildcard	"World\DuOminous\*.lnd"
+	wildcard	"World\DuOminous\*.dds"
+}
+
+//////////////////////////////////////////////////////
+// 아미너스 던전_1
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuOminous_1\DuOminous_1.res"
+{
+	file	 	"world\DuOminous_1\DuOminous_1.wld"
+	file		"world\DuOminous_1\DuOminous_1.rgn"
+	file 		"world\DuOminous_1\DuOminous_1.txt.txt"
+	wildcard	"World\DuOminous_1\*.lnd"
+	wildcard	"World\DuOminous_1\*.dds"
+}
+
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuRustia_1\DuRustia_1.res"
+{
+	file	 	"world\DuRustia_1\DuRustia_1.wld"
+	file		"world\DuRustia_1\DuRustia_1.rgn"
+	file 		"world\DuRustia_1\DuRustia_1.txt.txt"
+	wildcard	"World\DuRustia_1\*.lnd"
+	wildcard	"World\DuRustia_1\*.dds"
+}
+
+
+
+
+
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuRustia\DuRustia.res"
+{
+	file	 	"world\DuRustia\DuRustia.wld"
+	file		"world\DuRustia\DuRustia.rgn"
+	file 		"world\DuRustia\DuRustia.txt.txt"
+	wildcard	"World\DuRustia\*.lnd"
+	wildcard	"World\DuRustia\*.dds"
+}
+
+
+
+//////////////////////////////////////////////////////
+// 퀴즈
+
+
+//////////////////////////////////////////////////////
+// 길드 하우스 
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdGuildhousesmall\WdGuildhousesmall.res"
+{
+	file	 	"world\WdGuildhousesmall\WdGuildhousesmall.wld"
+	file		"world\WdGuildhousesmall\WdGuildhousesmall.rgn"
+	file 		"world\WdGuildhousesmall\WdGuildhousesmall.txt.txt"
+	wildcard	"World\WdGuildhousesmall\*.lnd"
+	wildcard	"World\WdGuildhousesmall\*.dds"
+}
+
+resource 1 "..\ResClient\World\Wdguildhousemiddle\Wdguildhousemiddle.res"
+{
+	file	 	"world\Wdguildhousemiddle\Wdguildhousemiddle.wld"
+	file		"world\Wdguildhousemiddle\Wdguildhousemiddle.rgn"
+	file 		"world\Wdguildhousemiddle\Wdguildhousemiddle.txt.txt"
+	wildcard	"World\Wdguildhousemiddle\*.lnd"
+	wildcard	"World\Wdguildhousemiddle\*.dds"
+}
+
+resource 1 "..\ResClient\World\Wdguildhouselarge\Wdguildhouselarge.res"
+{
+	file	 	"world\Wdguildhouselarge\Wdguildhouselarge.wld"
+	file		"world\Wdguildhouselarge\Wdguildhouselarge.rgn"
+	file 		"world\Wdguildhouselarge\Wdguildhouselarge.txt.txt"
+	wildcard	"World\Wdguildhouselarge\*.lnd"
+	wildcard	"World\Wdguildhouselarge\*.dds"
+}
+
+
+
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdRartesia\WdRartesia.res"
+{
+	file 		"world\WdRartesia\WdRartesia.wld"
+	file 		"world\WdRartesia\WdRartesia.rgn"
+	file 		"world\WdRartesia\WdRartesia.txt.txt"
+	wildcard	"World\WdRartesia\*.lnd"
+	wildcard	"World\WdRartesia\*.dds"
+}
+
+
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuKalgas\DuKalgas.res"
+{
+	file 		"world\DuKalgas\DuKalgas.wld"
+	file 		"world\DuKalgas\DuKalgas.rgn"
+	file 		"world\DuKalgas\DuKalgas.txt.txt"
+	wildcard	"World\DuKalgas\*.lnd"
+	wildcard	"World\DuKalgas\*.dds"
+}
+
+
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuBehamah\DuBehamah.res"
+{
+	file 		"world\DuBehamah\DuBehamah.wld"
+	file 		"world\DuBehamah\DuBehamah.rgn"
+	file 		"world\DuBehamah\DuBehamah.txt.txt"
+	wildcard	"World\DuBehamah\*.lnd"
+	wildcard	"World\DuBehamah\*.dds"
+}
+
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdColosseum\WdColosseum.res"
+{
+	file 		"world\WdColosseum\WdColosseum.wld"
+	file 		"world\WdColosseum\WdColosseum.rgn"
+	file 		"world\WdColosseum\WdColosseum.txt.txt"
+	wildcard	"World\WdColosseum\*.lnd"
+	wildcard	"World\WdColosseum\*.dds"
+}
+
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdCisland\WdCisland.res"
+{
+	file 		"world\WdCisland\WdCisland.wld"
+	file 		"world\WdCisland\WdCisland.rgn"
+	file 		"world\WdCisland\WdCisland.txt.txt"
+	wildcard	"World\WdCisland\*.lnd"
+	wildcard	"World\WdCisland\*.dds"
+}
+
+
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuFlMas\DuFlMas.res"
+{
+	file 		"world\DuFlMas\DuFlMas.wld"
+	file 		"world\DuFlMas\DuFlMas.rgn"
+	file 		"world\DuFlMas\DuFlMas.txt.txt"
+	wildcard	"World\DuFlMas\*.lnd"
+	wildcard	"World\DuFlMas\*.dds"
+}
+
+//////////////////////////////////v18+////////////////////////////////////
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuHerneos\DuHerneos.res"
+{
+	file 		"world\DuHerneos\DuHerneos.wld"
+	file 		"world\DuHerneos\DuHerneos.rgn"
+	file 		"world\DuHerneos\DuHerneos.txt.txt"
+	wildcard	"World\DuHerneos\*.lnd"
+	wildcard	"World\DuHerneos\*.dds"
+}
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuHerneos_1\DuHerneos_1.res"
+{
+	file 		"world\DuHerneos_1\DuHerneos_1.wld"
+	file 		"world\DuHerneos_1\DuHerneos_1.rgn"
+	file 		"world\DuHerneos_1\DuHerneos_1.txt.txt"
+	wildcard	"World\DuHerneos_1\*.lnd"
+	wildcard	"World\DuHerneos_1\*.dds"
+}
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuSanpres\DuSanpres.res"
+{
+	file 		"world\DuSanpres\DuSanpres.wld"
+	file 		"world\DuSanpres\DuSanpres.rgn"
+	file 		"world\DuSanpres\DuSanpres.txt.txt"
+	wildcard	"World\DuSanpres\*.lnd"
+	wildcard	"World\DuSanpres\*.dds"
+}
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuSanpres_1\DuSanpres_1.res"
+{
+	file 		"world\DuSanpres_1\DuSanpres_1.wld"
+	file 		"world\DuSanpres_1\DuSanpres_1.rgn"
+	file 		"world\DuSanpres_1\DuSanpres_1.txt.txt"
+	wildcard	"World\DuSanpres_1\*.lnd"
+	wildcard	"World\DuSanpres_1\*.dds"
+}
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuUpresia\DuUpresia.res"
+{
+	file 		"world\DuUpresia\DuUpresia.wld"
+	file 		"world\DuUpresia\DuUpresia.rgn"
+	file 		"world\DuUpresia\DuUpresia.txt.txt"
+	wildcard	"World\DuUpresia\*.lnd"
+	wildcard	"World\DuUpresia\*.dds"
+}
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DuUpresia_1\DuUpresia_1.res"
+{
+	file 		"world\DuUpresia_1\DuUpresia_1.wld"
+	file 		"world\DuUpresia_1\DuUpresia_1.rgn"
+	file 		"world\DuUpresia_1\DuUpresia_1.txt.txt"
+	wildcard	"World\DuUpresia_1\*.lnd"
+	wildcard	"World\DuUpresia_1\*.dds"
+}
+
+//////////////////////////////////v18+ Ende////////////////////////////////////
+
+
+//////////////////////////////////////////////////////
+// 드래드풀
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\DudreadfulCave\DudreadfulCave.res"
+{
+	file "world\DudreadfulCave\DudreadfulCave.wld"
+	file "world\DudreadfulCave\DudreadfulCave.rgn"
+	file "world\DudreadfulCave\DudreadfulCave.txt.txt"
+}
+
+resource 0 "..\ResClient\World\DudreadfulCave\DudreadfulCave00-00.res" 
+{ count "world\DudreadfulCave\DudreadfulCave(2,00,04)-(2,00,04).lnd" }
+resource 0 "..\ResClient\World\DudreadfulCave\DudreadfulCave00-05.res" 
+{ count "world\DudreadfulCave\DudreadfulCave(2,00,04)-(2,05,09).lnd" }
+resource 0 "..\ResClient\World\DudreadfulCave\DudreadfulCave05-00.res" 
+{ count "world\DudreadfulCave\DudreadfulCave(2,05,09)-(2,00,04).lnd" }
+resource 0 "..\ResClient\World\DudreadfulCave\DudreadfulCave05-05.res" 
+{ count "world\DudreadfulCave\DudreadfulCave(2,05,09)-(2,05,09).lnd" }
+
+resource 0 "..\ResClient\World\DudreadfulCave\DudreadfulCave_00-00.res" 
+{ count "world\DudreadfulCave\DudreadfulCave(2,00,04)-(2,00,04).dds" }
+resource 0 "..\ResClient\World\DudreadfulCave\DudreadfulCave_00-05.res" 
+{ count "world\DudreadfulCave\DudreadfulCave(2,00,04)-(2,05,09).dds" }
+resource 0 "..\ResClient\World\DudreadfulCave\DudreadfulCave_05-00.res" 
+{ count "world\DudreadfulCave\DudreadfulCave(2,05,09)-(2,00,04).dds" }
+resource 0 "..\ResClient\World\DudreadfulCave\DudreadfulCave_05-05.res" 
+{ count "world\DudreadfulCave\DudreadfulCave(2,05,09)-(2,05,09).dds" }
+
+
+
+
+
+//////////////////////////////////////////////////////
+resource 1 "..\ResClient\World\WdMadrigal\WdMadrigal.res"
+{
+	file "world\wdMadrigal\WdMadrigal.wld"
+	file "world\wdMadrigal\WdMadrigal.rgn"
+	file "world\wdMadrigal\wdMadrigal.txt.txt"
+	file "world\wdMadrigal\WdMadrigal.wld.cnt"
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Model texture end
+
+////////// 00-00
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal00-00.res" 
+{ count "world\wdMadrigal\WdMadrigal(2,00,04)-(2,00,04).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal00-05.res" 
+{ count "world\wdMadrigal\WdMadrigal(2,00,04)-(2,05,09).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal00-10.res" 
+{ count "world\wdMadrigal\WdMadrigal(2,00,04)-(2,10,14).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal00-15.res" 
+{ count "world\wdMadrigal\WdMadrigal(2,00,04)-(2,15,19).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal00-20.res" 
+{ count "world\wdMadrigal\WdMadrigal(2,00,04)-(2,20,24).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal00-25.res" 
+{ count "world\wdMadrigal\WdMadrigal(2,00,04)-(2,25,29).lnd" }
+////////// 05-00
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal05-00.res"
+{ count "world\wdMadrigal\WdMadrigal(2,05,09)-(2,00,04).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal05-05.res"
+{ count "world\wdMadrigal\WdMadrigal(2,05,09)-(2,05,09).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal05-10.res"
+{ count "world\wdMadrigal\WdMadrigal(2,05,09)-(2,10,14).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal05-15.res"
+{ count "world\wdMadrigal\WdMadrigal(2,05,09)-(2,15,19).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal05-20.res"
+{ count "world\wdMadrigal\WdMadrigal(2,05,09)-(2,20,24).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal05-25.res"
+{ count "world\wdMadrigal\WdMadrigal(2,05,09)-(2,25,29).lnd" }
+////////// 10-00
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal10-00.res"
+{ count "world\wdMadrigal\WdMadrigal(2,10,14)-(2,00,04).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal10-05.res"
+{ count "world\wdMadrigal\WdMadrigal(2,10,14)-(2,05,09).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal10-10.res"
+{ count "world\wdMadrigal\WdMadrigal(2,10,14)-(2,10,14).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal10-15.res"
+{ count "world\wdMadrigal\WdMadrigal(2,10,14)-(2,15,19).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal10-20.res"
+{ count "world\wdMadrigal\WdMadrigal(2,10,14)-(2,20,24).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal10-25.res"
+{ count "world\wdMadrigal\WdMadrigal(2,10,14)-(2,25,29).lnd" }
+////////// 15-00
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal15-00.res"
+{ count "world\wdMadrigal\WdMadrigal(2,15,19)-(2,00,04).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal15-05.res"
+{ count "world\wdMadrigal\WdMadrigal(2,15,19)-(2,05,09).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal15-10.res"
+{ count "world\wdMadrigal\WdMadrigal(2,15,19)-(2,10,14).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal15-15.res"
+{ count "world\wdMadrigal\WdMadrigal(2,15,19)-(2,15,19).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal15-20.res"
+{ count "world\wdMadrigal\WdMadrigal(2,15,19)-(2,20,24).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal15-25.res"
+{ count "world\wdMadrigal\WdMadrigal(2,15,19)-(2,25,29).lnd" }
+////////// 20-00
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal20-00.res"
+{ count "world\wdMadrigal\WdMadrigal(2,20,24)-(2,00,04).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal20-05.res"
+{ count "world\wdMadrigal\WdMadrigal(2,20,24)-(2,05,09).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal20-10.res"
+{ count "world\wdMadrigal\WdMadrigal(2,20,24)-(2,10,14).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal20-15.res"
+{ count "world\wdMadrigal\WdMadrigal(2,20,24)-(2,15,19).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal20-20.res"
+{ count "world\wdMadrigal\WdMadrigal(2,20,24)-(2,20,24).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal20-25.res"
+{ count "world\wdMadrigal\WdMadrigal(2,20,24)-(2,25,29).lnd" }
+////////// 25-00
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal25-00.res"
+{ count "world\wdMadrigal\WdMadrigal(2,25,29)-(2,00,04).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal25-05.res"
+{ count "world\wdMadrigal\WdMadrigal(2,25,29)-(2,05,09).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal25-10.res"
+{ count "world\wdMadrigal\WdMadrigal(2,25,29)-(2,10,14).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal25-15.res"
+{ count "world\wdMadrigal\WdMadrigal(2,25,29)-(2,15,19).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal25-20.res"
+{ count "world\wdMadrigal\WdMadrigal(2,25,29)-(2,20,24).lnd" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal25-25.res"
+{ count "world\wdMadrigal\WdMadrigal(2,25,29)-(2,25,29).lnd" }
+ 
+//////////////////////////////////////////////////////
+// 마드리갈 미니맵 
+//////////////////////////////////////////////////////
+////////// 00-00
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_00-00.res" 
+{ count "world\wdMadrigal\WdMadrigal(2,00,04)-(2,00,04).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_00-05.res" 
+{ count "world\wdMadrigal\WdMadrigal(2,00,04)-(2,05,09).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_00-10.res" 
+{ count "world\wdMadrigal\WdMadrigal(2,00,04)-(2,10,14).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_00-15.res" 
+{ count "world\wdMadrigal\WdMadrigal(2,00,04)-(2,15,19).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_00-20.res" 
+{ count "world\wdMadrigal\WdMadrigal(2,00,04)-(2,20,24).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_00-25.res" 
+{ count "world\wdMadrigal\WdMadrigal(2,00,04)-(2,25,29).dds" }
+////////// 05-00
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_05-00.res"
+{ count "world\wdMadrigal\WdMadrigal(2,05,09)-(2,00,04).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_05-05.res"
+{ count "world\wdMadrigal\WdMadrigal(2,05,09)-(2,05,09).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_05-10.res"
+{ count "world\wdMadrigal\WdMadrigal(2,05,09)-(2,10,14).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_05-15.res"
+{ count "world\wdMadrigal\WdMadrigal(2,05,09)-(2,15,19).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_05-20.res"
+{ count "world\wdMadrigal\WdMadrigal(2,05,09)-(2,20,24).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_05-25.res"
+{ count "world\wdMadrigal\WdMadrigal(2,05,09)-(2,25,29).dds" }
+////////// 10-00
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_10-00.res"
+{ count "world\wdMadrigal\WdMadrigal(2,10,14)-(2,00,04).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_10-05.res"
+{ count "world\wdMadrigal\WdMadrigal(2,10,14)-(2,05,09).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_10-10.res"
+{ count "world\wdMadrigal\WdMadrigal(2,10,14)-(2,10,14).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_10-15.res"
+{ count "world\wdMadrigal\WdMadrigal(2,10,14)-(2,15,19).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_10-20.res"
+{ count "world\wdMadrigal\WdMadrigal(2,10,14)-(2,20,24).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_10-25.res"
+{ count "world\wdMadrigal\WdMadrigal(2,10,14)-(2,25,29).dds" }
+////////// 15-00
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_15-00.res"
+{ count "world\wdMadrigal\WdMadrigal(2,15,19)-(2,00,04).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_15-05.res"
+{ count "world\wdMadrigal\WdMadrigal(2,15,19)-(2,05,09).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_15-10.res"
+{ count "world\wdMadrigal\WdMadrigal(2,15,19)-(2,10,14).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_15-15.res"
+{ count "world\wdMadrigal\WdMadrigal(2,15,19)-(2,15,19).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_15-20.res"
+{ count "world\wdMadrigal\WdMadrigal(2,15,19)-(2,20,24).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_15-25.res"
+{ count "world\wdMadrigal\WdMadrigal(2,15,19)-(2,25,29).dds" }
+////////// 20-00
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_20-00.res"
+{ count "world\wdMadrigal\WdMadrigal(2,20,24)-(2,00,04).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_20-05.res"
+{ count "world\wdMadrigal\WdMadrigal(2,20,24)-(2,05,09).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_20-10.res"
+{ count "world\wdMadrigal\WdMadrigal(2,20,24)-(2,10,14).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_20-15.res"
+{ count "world\wdMadrigal\WdMadrigal(2,20,24)-(2,15,19).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_20-20.res"
+{ count "world\wdMadrigal\WdMadrigal(2,20,24)-(2,20,24).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_20-25.res"
+{ count "world\wdMadrigal\WdMadrigal(2,20,24)-(2,25,29).dds" }
+////////// 25-00
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_25-00.res"
+{ count "world\wdMadrigal\WdMadrigal(2,25,29)-(2,00,04).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_25-05.res"
+{ count "world\wdMadrigal\WdMadrigal(2,25,29)-(2,05,09).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_25-10.res"
+{ count "world\wdMadrigal\WdMadrigal(2,25,29)-(2,10,14).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_25-15.res"
+{ count "world\wdMadrigal\WdMadrigal(2,25,29)-(2,15,19).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_25-20.res"
+{ count "world\wdMadrigal\WdMadrigal(2,25,29)-(2,20,24).dds" }
+resource 0 "..\ResClient\World\WdMadrigal\WdMadrigal_25-25.res"
+{ count "world\wdMadrigal\WdMadrigal(2,25,29)-(2,25,29).dds" }

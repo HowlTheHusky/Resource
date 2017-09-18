@@ -1,0 +1,60 @@
+---------------------------------------------
+01/09/2017 09:46:08
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Part_femaleHair06.dds'
+---------------------------------------------
+01/09/2017 09:46:10
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Part_femaleHead01.dds'
+---------------------------------------------
+01/09/2017 09:46:11
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'part_femaleHand.dds'
+---------------------------------------------
+01/09/2017 09:46:11
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'part_femaleLower.dds'
+---------------------------------------------
+01/09/2017 09:46:12
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'part_femaleUpper.dds'
+---------------------------------------------
+01/09/2017 09:46:12
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Part_femaleFoot.dds'
+---------------------------------------------
+01/09/2017 18:49:48
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Part_femaleHair06.dds'
+---------------------------------------------
+01/09/2017 18:49:52
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Part_femaleHead01.dds'
+---------------------------------------------
+01/09/2017 18:49:53
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'part_femaleHand.dds'
+---------------------------------------------
+01/09/2017 18:49:53
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'part_femaleLower.dds'
+---------------------------------------------
+01/09/2017 18:49:54
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'part_femaleUpper.dds'
+---------------------------------------------
+01/09/2017 18:49:55
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Part_femaleFoot.dds'

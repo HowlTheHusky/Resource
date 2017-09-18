@@ -1,0 +1,20 @@
+---------------------------------------------
+10/09/2017 16:01:33
+..\Common\Object3D.cpp line 720
+bool __thiscall CObject3D::Load(const class QString &)
+Object3D version no more supported in 'Model/obj_dunTest.o3d'
+---------------------------------------------
+10/09/2017 16:04:06
+..\Common\File.cpp line 40
+bool __thiscall CFile::Open(const class QString &,enum QIODevice::OpenModeFlag,bool)
+Can't open file 'SFX/sfx_effect01.sfx'
+---------------------------------------------
+10/09/2017 16:04:09
+..\Common\File.cpp line 40
+bool __thiscall CFile::Open(const class QString &,enum QIODevice::OpenModeFlag,bool)
+Can't open file 'SFX/sfx_light01.sfx'
+---------------------------------------------
+10/09/2017 20:30:50
+..\Common\Project.cpp line 838
+class CTexture *__thiscall CProject::GetTerrain(int) const
+Terrain texture with ID 215 doesn't exist

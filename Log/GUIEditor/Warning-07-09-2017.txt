@@ -1,0 +1,290 @@
+---------------------------------------------
+07/09/2017 08:44:09
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WindField.bmp'
+---------------------------------------------
+07/09/2017 08:44:36
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile00.tga'
+---------------------------------------------
+07/09/2017 08:44:38
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile01.tga'
+---------------------------------------------
+07/09/2017 08:44:39
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile02.tga'
+---------------------------------------------
+07/09/2017 08:44:39
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile03.tga'
+---------------------------------------------
+07/09/2017 08:44:39
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile04.tga'
+---------------------------------------------
+07/09/2017 08:44:40
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile05.tga'
+---------------------------------------------
+07/09/2017 08:44:40
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile06.tga'
+---------------------------------------------
+07/09/2017 08:44:40
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile07.tga'
+---------------------------------------------
+07/09/2017 08:44:40
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile08.tga'
+---------------------------------------------
+07/09/2017 08:44:40
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile09.tga'
+---------------------------------------------
+07/09/2017 08:44:41
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile10.tga'
+---------------------------------------------
+07/09/2017 08:44:41
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile11.tga'
+---------------------------------------------
+07/09/2017 08:44:41
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/ButtWndExit.tga'
+---------------------------------------------
+07/09/2017 08:44:41
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/ButtVScrUp.tga'
+---------------------------------------------
+07/09/2017 08:44:41
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/ButtVScrDown.tga'
+---------------------------------------------
+07/09/2017 08:44:42
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/ButtVScrBar.bmp'
+---------------------------------------------
+07/09/2017 08:44:42
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile00.tga'
+---------------------------------------------
+07/09/2017 08:44:42
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile01.tga'
+---------------------------------------------
+07/09/2017 08:44:42
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile02.tga'
+---------------------------------------------
+07/09/2017 08:44:42
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile03.tga'
+---------------------------------------------
+07/09/2017 08:44:43
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile04.tga'
+---------------------------------------------
+07/09/2017 08:44:43
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile05.tga'
+---------------------------------------------
+07/09/2017 08:44:43
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile06.tga'
+---------------------------------------------
+07/09/2017 08:44:43
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile07.tga'
+---------------------------------------------
+07/09/2017 08:44:46
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile08.tga'
+---------------------------------------------
+07/09/2017 08:44:48
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/ButtApply.tga'
+---------------------------------------------
+07/09/2017 08:44:51
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile200.tga'
+---------------------------------------------
+07/09/2017 08:44:52
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile201.tga'
+---------------------------------------------
+07/09/2017 08:44:52
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile202.tga'
+---------------------------------------------
+07/09/2017 08:44:52
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile203.tga'
+---------------------------------------------
+07/09/2017 08:44:52
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile204.tga'
+---------------------------------------------
+07/09/2017 08:44:52
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile205.tga'
+---------------------------------------------
+07/09/2017 08:44:53
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile206.tga'
+---------------------------------------------
+07/09/2017 08:44:53
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile207.tga'
+---------------------------------------------
+07/09/2017 08:44:53
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndEditTile208.tga'
+---------------------------------------------
+07/09/2017 08:49:30
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WindField.bmp'
+---------------------------------------------
+07/09/2017 08:49:36
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile00.tga'
+---------------------------------------------
+07/09/2017 08:49:37
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile01.tga'
+---------------------------------------------
+07/09/2017 08:49:37
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile02.tga'
+---------------------------------------------
+07/09/2017 08:49:37
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile03.tga'
+---------------------------------------------
+07/09/2017 08:49:38
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile04.tga'
+---------------------------------------------
+07/09/2017 08:49:38
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile05.tga'
+---------------------------------------------
+07/09/2017 08:49:38
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile06.tga'
+---------------------------------------------
+07/09/2017 08:49:38
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile07.tga'
+---------------------------------------------
+07/09/2017 08:49:39
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile08.tga'
+---------------------------------------------
+07/09/2017 08:49:39
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile09.tga'
+---------------------------------------------
+07/09/2017 08:49:39
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile10.tga'
+---------------------------------------------
+07/09/2017 08:49:39
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndTile11.tga'
+---------------------------------------------
+07/09/2017 08:49:39
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/ButtWndExit.tga'
+---------------------------------------------
+07/09/2017 08:49:40
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/ButtOk.tga'
+---------------------------------------------
+07/09/2017 08:49:40
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/ButtCancel.tga'
+---------------------------------------------
+07/09/2017 09:04:13
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/wndButtClose.BMP'
+---------------------------------------------
+07/09/2017 09:04:56
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndCharacter.bmp'
+---------------------------------------------
+07/09/2017 10:12:28
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/wndButtOk.BMP'
+---------------------------------------------
+07/09/2017 10:12:29
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/wndButtCancel.BMP'
+---------------------------------------------
+07/09/2017 10:22:16
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WndQuickList.bmp'
+---------------------------------------------
+07/09/2017 10:37:11
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/subBook.tga'

@@ -1,0 +1,30 @@
+---------------------------------------------
+01/09/2017 09:43:43
+..\Common\File.cpp line 40
+bool __thiscall CFile::Open(const class QString &,enum QIODevice::OpenModeFlag,bool)
+Can't open file 'Model/part_femalehair06.o3d'
+---------------------------------------------
+01/09/2017 09:43:45
+..\Common\File.cpp line 40
+bool __thiscall CFile::Open(const class QString &,enum QIODevice::OpenModeFlag,bool)
+Can't open file 'Model/part_femalehead01.o3d'
+---------------------------------------------
+01/09/2017 09:43:47
+..\Common\File.cpp line 40
+bool __thiscall CFile::Open(const class QString &,enum QIODevice::OpenModeFlag,bool)
+Can't open file 'Model/part_femalehand.o3d'
+---------------------------------------------
+01/09/2017 09:43:48
+..\Common\File.cpp line 40
+bool __thiscall CFile::Open(const class QString &,enum QIODevice::OpenModeFlag,bool)
+Can't open file 'Model/part_femalelower.o3d'
+---------------------------------------------
+01/09/2017 09:43:48
+..\Common\File.cpp line 40
+bool __thiscall CFile::Open(const class QString &,enum QIODevice::OpenModeFlag,bool)
+Can't open file 'Model/part_femaleupper.o3d'
+---------------------------------------------
+01/09/2017 09:43:49
+..\Common\File.cpp line 40
+bool __thiscall CFile::Open(const class QString &,enum QIODevice::OpenModeFlag,bool)
+Can't open file 'Model/part_femalefoot.o3d'

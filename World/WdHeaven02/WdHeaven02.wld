@@ -1,0 +1,14 @@
+// World script
+
+size 1, 1
+indoor 1
+ambient 0xff808080
+bgColor 0xffe0e0ff
+fly 0
+camera 277.441 117.508 229.130  0.673  4.796 
+revival 1 "flaris" 
+diffuse 0xff555a6e
+lightDir  0.000  0.000  0.000 
+fogSetting 10.000 100.000  0.000 
+bgm 0 
+pkmode 4194304 

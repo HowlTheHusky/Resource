@@ -1,0 +1,5 @@
+---------------------------------------------
+01/09/2017 09:44:47
+..\Common\TextureMng.cpp line 69
+class CTexture *__thiscall CTextureMng::GetGUITexture(const class QString &)
+Can't load GUI texture from file 'Theme/Default/WindField.bmp'

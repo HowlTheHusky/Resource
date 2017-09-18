@@ -1,0 +1,280 @@
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'Moon.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'sundisk.bmp'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud01_low.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud02_low.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud03.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox01_low.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox02_low.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox03.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_MaFlPrMarsefountain01.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_MaFlPrMarsefountain02.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp14-02.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp14-01.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp07.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp02.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp01.dds'
+---------------------------------------------
+10/09/2017 15:40:06
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'mvr_NpcRhine01.dds'
+---------------------------------------------
+10/09/2017 15:46:10
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp16.dds'
+---------------------------------------------
+10/09/2017 15:46:19
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp12-03.dds'
+---------------------------------------------
+10/09/2017 15:46:48
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp12-01.dds'
+---------------------------------------------
+10/09/2017 15:46:48
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp12-02.dds'
+---------------------------------------------
+10/09/2017 15:46:51
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp11-01.dds'
+---------------------------------------------
+10/09/2017 15:46:51
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp11-02.dds'
+---------------------------------------------
+10/09/2017 15:46:55
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp10.dds'
+---------------------------------------------
+10/09/2017 15:46:56
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp09.dds'
+---------------------------------------------
+10/09/2017 15:46:57
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp08.dds'
+---------------------------------------------
+10/09/2017 15:46:58
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadProp06.dds'
+---------------------------------------------
+10/09/2017 15:49:28
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadRock01.dds'
+---------------------------------------------
+10/09/2017 15:49:31
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadRock03.dds'
+---------------------------------------------
+10/09/2017 15:49:31
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadRock05.dds'
+---------------------------------------------
+10/09/2017 15:49:32
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadRock06.dds'
+---------------------------------------------
+10/09/2017 15:49:32
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_DreadCeiling01.dds'
+---------------------------------------------
+10/09/2017 15:49:32
+..\Common\TextureMng.cpp line 118
+class CTexture *__thiscall CTextureMng::GetModelTexture(const class QString &)
+Can't load model texture from file 'Obj_Dreadquartz01.dds'
+---------------------------------------------
+10/09/2017 15:57:35
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'Moon.dds'
+---------------------------------------------
+10/09/2017 15:57:35
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'sundisk.bmp'
+---------------------------------------------
+10/09/2017 15:57:35
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud01_low.dds'
+---------------------------------------------
+10/09/2017 15:57:35
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud02_low.dds'
+---------------------------------------------
+10/09/2017 15:57:35
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud03.dds'
+---------------------------------------------
+10/09/2017 15:57:35
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox01_low.dds'
+---------------------------------------------
+10/09/2017 15:57:35
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox02_low.dds'
+---------------------------------------------
+10/09/2017 15:57:35
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox03.dds'
+---------------------------------------------
+10/09/2017 16:08:22
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'Moon.dds'
+---------------------------------------------
+10/09/2017 16:08:22
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'sundisk.bmp'
+---------------------------------------------
+10/09/2017 16:08:22
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud01_low.dds'
+---------------------------------------------
+10/09/2017 16:08:22
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud02_low.dds'
+---------------------------------------------
+10/09/2017 16:08:22
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud03.dds'
+---------------------------------------------
+10/09/2017 16:08:22
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox01_low.dds'
+---------------------------------------------
+10/09/2017 16:08:22
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox02_low.dds'
+---------------------------------------------
+10/09/2017 16:08:22
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox03.dds'
+---------------------------------------------
+10/09/2017 20:29:03
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'Moon.dds'
+---------------------------------------------
+10/09/2017 20:29:03
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'sundisk.bmp'
+---------------------------------------------
+10/09/2017 20:29:03
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud01_low.dds'
+---------------------------------------------
+10/09/2017 20:29:03
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud02_low.dds'
+---------------------------------------------
+10/09/2017 20:29:03
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud03.dds'
+---------------------------------------------
+10/09/2017 20:29:03
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox01_low.dds'
+---------------------------------------------
+10/09/2017 20:29:03
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox02_low.dds'
+---------------------------------------------
+10/09/2017 20:29:03
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox03.dds'
