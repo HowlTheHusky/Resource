@@ -498,6 +498,7 @@
 #define APP_EXINVENTORY             497
 #define APP_EXSHOP             455
 #define APP_EXTRA_CAPTURE             150
+#define APP_FASTJOBCHANGE             907
 #define APP_FILD_GUILD             1021
 #define APP_FIND_CLUB             1022
 #define APP_FIND_PEOPLE             1020
