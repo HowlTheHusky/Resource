@@ -345,7 +345,7 @@ end
 
 function GetExpFactor()
 	local tList = GetEventList()
-	local fExpFactor = 100
+	local fExpFactor = 20
 	for i in pairs(tList) do
 		if( tEvent[tList[i]].fExpFactor ~= nil ) then
 			fExpFactor = fExpFactor * tEvent[tList[i]].fExpFactor
@@ -363,7 +363,7 @@ end
 
 function GetItemDropRate()
 	local tList = GetEventList()
-	local fItemDropRate = 25
+	local fItemDropRate = 50
 	for i in pairs(tList) do
 		if( tEvent[tList[i]].fItemDropRate ~= nil ) then
 			fItemDropRate = fItemDropRate * tEvent[tList[i]].fItemDropRate
@@ -381,7 +381,7 @@ end
 
 function GetPieceItemDropRate()
 	local tList = GetEventList()
-	local fPieceItemDropRate = 1
+	local fPieceItemDropRate = 25
 	for i in pairs(tList) do
 		if( tEvent[tList[i]].fPieceItemDropRate ~= nil ) then
 			fPieceItemDropRate = fPieceItemDropRate * tEvent[tList[i]].fPieceItemDropRate
@@ -399,7 +399,7 @@ end
 
 function GetGoldDropFactor()
 	local tList = GetEventList()
-	local fGoldDropFactor = 200
+	local fGoldDropFactor = 50
 	for i in pairs(tList) do
 		if( tEvent[tList[i]].fGoldDropFactor ~= nil ) then
 			fGoldDropFactor = fGoldDropFactor * tEvent[tList[i]].fGoldDropFactor
