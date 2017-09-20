@@ -1,0 +1,40 @@
+---------------------------------------------
+20/09/2017 11:36:40
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'Moon.dds'
+---------------------------------------------
+20/09/2017 11:36:40
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'sundisk.bmp'
+---------------------------------------------
+20/09/2017 11:36:40
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud01_low.dds'
+---------------------------------------------
+20/09/2017 11:36:40
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud02_low.dds'
+---------------------------------------------
+20/09/2017 11:36:40
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'cloud03.dds'
+---------------------------------------------
+20/09/2017 11:36:40
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox01_low.dds'
+---------------------------------------------
+20/09/2017 11:36:40
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox02_low.dds'
+---------------------------------------------
+20/09/2017 11:36:40
+..\Common\TextureMng.cpp line 216
+class CTexture *__thiscall CTextureMng::GetWeatherTexture(const class QString &)
+Can't load weather texture from file 'skybox03.dds'
